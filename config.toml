@@ -1,0 +1,56 @@
+baseURL = "https://iyarlin.github.io/"
+languageCode = "en-us"
+title = "Just be-cause"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Iyar Lin - All rights reserved"
+enableEmoji = true
+publishDir = "docs"
+disqusShortname = "just-be-cause"
+
+[params]
+  logo = "/images/logo.png"
+  description ="Making sense of causality"
+  #mailchimp = "you can provide a mailchimp-link here"
+  # options for highlight.js (version, additional languages, and theme)
+  highlightjsVersion = "9.12.0"
+  highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+  highlightjsLang = ["r", "yaml"]
+  highlightjsTheme = "github"
+  MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+  MathJaxVersion = "2.7.5"
+
+[params.author]
+  name = "Iyar Lin"
+  thumbnail = "/images/author.png"
+  description = "Data scientis, Viasat inc"
+
+[params.index]
+  picture = "/images/author.png"
+  title = "Iyar Lin"
+  subtitle = "Data scientist by proffession, statistician by heart"
+  mdtext = '''
+I belive the best way to learn data-science is by doing. \
+In this blog I share my learning experiences in the topics of \
+Causal-Inference and general ML through simulation studies and hands on experimentation.
+
+Posts in this blog are graciously hosted also on [R-bloggers](https://www.r-bloggers.com/) blog.
+'''
+  alertbar = false
+
+[params.social]
+  github = "IyarLin"
+  linkedin = "iyar-lin-54329947"
+  medium = "iyarlin"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
