@@ -23,7 +23,7 @@ disqusShortname = "just-be-cause"
 [params.author]
   name = "Iyar Lin"
   thumbnail = "/images/author.png"
-  description = "Data scientis, Viasat inc"
+  description = "Data scientist, Viasat inc"
 
 [params.index]
   picture = "/images/author.png"
